@@ -1,0 +1,48 @@
+/* NAVEGATION */
+nav{
+    background-color:  #655D8A;
+}
+
+/* INDEX */
+.heroSection{
+    width: 100vw;
+    height: 60vh;
+    background-color: #655D8A;
+    background-image: url(https://images.unsplash.com/photo-1500840216050-6ffa99d75160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1ha2V1cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+
+    padding-top: 10rem;
+}
+
+/* SERVICIOS */
+.imgServ img{
+    object-fit: cover;
+}
+
+/* PORTFOLIO */
+.makeUpSecTittle{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(101,93,138,1) 100%);
+}
+
+
+/* CURSOS */
+
+
+/* CONTACTO */
+#floatingTextarea{
+    resize: none;
+    height: 40vh !important;
+}
+
+.contactInfo i{
+    color: #484262;
+    font-size: 1.3rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: #655D8A;
+}
+footer .copyright{
+    background-color: #484262;
+}
