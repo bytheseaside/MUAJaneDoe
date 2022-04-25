@@ -1,32 +1,60 @@
+body{
+background-color: #E5E5E5 ;
+}
+
+
 /* NAVEGATION */
 nav{
-    background-color:  #655D8A;
+    background-color:   #484262;
 }
 
 /* INDEX */
 .heroSection{
     width: 100vw;
     height: 60vh;
-    background-color: #655D8A;
+    background-color: #655D8A!important;
     background-image: url(https://images.unsplash.com/photo-1500840216050-6ffa99d75160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1ha2V1cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
     background-size:cover;
 
     padding-top: 10rem;
 }
+.aboutMe{
+    backdrop-filter: blur(25px) saturate(133%);
+    -webkit-backdrop-filter: blur(25px) saturate(133%);
+    background-color: rgba(101, 93, 138, 0.52);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
 
 /* SERVICIOS */
 .imgServ img{
     object-fit: cover;
 }
 
+.services li{
+    background-color: #aca9b8;
+}
+.services li:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in ease-out;
+}
 /* PORTFOLIO */
 .makeUpSecTittle{
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(101,93,138,1) 100%);
+    background: linear-gradient(90deg,#aca9b8 0%, rgba(101,93,138,1) 100%);
+}
+.carousel{
+    margin: 0 20%!important;
 }
 
-
 /* CURSOS */
-
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(209, 207, 207, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.5);
+}
 
 /* CONTACTO */
 #floatingTextarea{
@@ -37,6 +65,11 @@ nav{
 .contactInfo i{
     color: #484262;
     font-size: 1.3rem;
+}
+.contactImg img{
+    object-fit: cover;
+    height: 60vh!important;
+    max-width: 80vw;
 }
 
 /* FOOTER */
